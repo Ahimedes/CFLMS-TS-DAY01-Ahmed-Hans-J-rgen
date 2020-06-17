@@ -4,14 +4,13 @@ let list: Array<string> = ["Ahmed Abdelaal", "Hans-Jürgen Janos", "Max Powers",
      console.log(x);
   };
 
-  for (var y of list) {
+  for (let y of list) {
      console.log(y);
   };
 
 for (let x in list) {
     console.log(x);
-    for (var y of list) {
+    for (let y of list) {
        console.log(y);
     };
  };
-
