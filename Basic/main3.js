@@ -10,10 +10,6 @@ for (var _i = 0, list_1 = list; _i < list_1.length; _i++) {
 ;
 for (var x in list) {
     console.log(x);
-    for (var _a = 0, list_2 = list; _a < list_2.length; _a++) {
-        var y = list_2[_a];
-        console.log(y);
-    }
-    ;
+    console.log(list[x]);
 }
 ;
